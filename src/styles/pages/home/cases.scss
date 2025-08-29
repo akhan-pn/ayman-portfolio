@@ -1,0 +1,132 @@
+.section__cases {
+  width: 100%;
+}
+
+.section__cases__wrapper {
+  padding: 15rem 0;
+  position: relative;
+
+  @include media('<tablet') {
+    padding: 10rem 0 20rem;
+  }
+
+  .section__cases__h2 {
+    font-size: 12rem;
+    font-family: $font-italiana;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+    text-align: center;
+
+    @include media('<tablet') {
+      font-size: 12rem;
+    }
+  }
+
+  .section__cases__help {
+    font-family: $font-italiana;
+    position: absolute;
+    font-size: 4rem;
+    right: 30rem;
+    bottom: 23rem;
+    color: $color-gray-white;
+    mix-blend-mode: difference;
+    z-index: z('navigation');
+    user-select: none;
+
+    @include media('<tablet') {
+      left: 50%;
+      right: auto;
+      bottom: 10rem;
+      font-size: 6rem;
+      transform: translateX(-50%);
+    }
+  }
+
+  .section__cases__all {
+    overflow: hidden;
+    padding: 10rem 0;
+
+    .section__cases__all__wrapper {
+      display: inline-flex;
+
+      .section__case {
+        width: 80vw;
+
+        .section__case__wrapper {
+          margin: 0 auto;
+          position: relative;
+          width: 70%;
+
+          .section__case__number,
+          .section__case__name {
+            font-family: $font-italiana;
+            font-size: 14rem;
+            position: absolute;
+            user-select: none;
+            mix-blend-mode: difference;
+          }
+
+          .section__case__number {
+            bottom: -6rem;
+            right: -10rem;
+          }
+
+          .section__case__name {
+            left: -10rem;
+            top: -9rem;
+          }
+
+          .section__case__link figure {
+            transition: transform 0.3s ease-in-out;
+          }
+          .section__case__link:hover figure {
+            transform: scale(1.05);
+          }
+
+          .section__case__media {
+            .section__case__image {
+              width: 100%;
+            }
+          }
+
+          @include media('<tablet') {
+            .section__case__number,
+            .section__case__name {
+              font-size: 8rem;
+              position: static;
+            }
+
+            .section__case__number {
+              bottom: -3rem;
+              right: -3rem;
+              margin-top: 1rem;
+              align-self: flex-end;
+            }
+
+            .section__case__name {
+              left: -2rem;
+              top: -5rem;
+              margin-bottom: 2rem;
+            }
+          }
+
+          @include media('<tablet') {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 5rem;
+          }
+        }
+
+        @include media('<tablet') {
+          width: 100vw;
+        }
+      }
+    }
+
+    @include media('<tablet') {
+      padding: 0;
+    }
+  }
+}
