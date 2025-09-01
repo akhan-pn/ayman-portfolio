@@ -1,16 +1,16 @@
-import abstractImg from '../../assets/images/home/abstract-figure.svg'
+import abstractImg from "../../assets/images/home/abstract-figure.svg";
 // import portraitVerImg from '../../assets/images/about/cristian-saenz-portrait-lost.jpg'
 // import portraitHorImg from '../../assets/images/about/cristian-saenz-portrait-hor.jpg'
-import portraitVerImg from '../../assets/images/about/mustafa-about.jpg'
-import portraitHorImg from '../../assets/images/about/mustafa.jpg'
+import portraitVerImg from "../../assets/images/about/mustafa-about.jpg";
+import portraitHorImg from "../../assets/images/about/mustafa.jpg";
 
 export default class AboutView {
   constructor() {
-    this.html = ''
+    this.html = "";
   }
 
   getData() {
-    this.createContent()
+    this.createContent();
   }
 
   createContent() {
@@ -22,17 +22,19 @@ export default class AboutView {
             <div class="about__header__bio">
               <div class="about__header__hi title">Hello!</div>
               <h1 class="about__header__title paragraph">
-                I'm a professional UI/UX designer with expertise in user-centered design and digital product strategy, based in Dubai, UAE.
+I’m a professional Full Stack Developer specializing in building scalable, user-centric web and mobile apps with React, Next.js, Node.js, and MongoDB—based in Hyderabad, India.
+
               </h1>
               <p class="about__header__description opacity__inner">
-                I've been designing digital experiences for many years, recently expanding into design systems and advanced prototyping methodologies. I combine creativity with strategic thinking to create innovative and user-friendly designs through meaningful interactions and thoughtful animations; for me, every pixel matters - those details that create truly exceptional user experiences.
+For the past two years I’ve engineered end-to-end solutions: from a custom Applicant Tracking System to high-converting Shopify and WordPress storefronts. My focus is clean architecture, thoughtful UI/UX, and performance that feels effortless.
+
               </p>
             </div>
             <div class="about__header__portrait">
               <figure class="about__header__media">
                 <img
                   class="about__header__image three__image"
-                  alt="Mustafa"
+                  alt="Ayman"
                   src="${portraitVerImg}"
                   data-webgl="image"
                 />
@@ -48,32 +50,46 @@ export default class AboutView {
                 <div class="section__skills__content">
                   <div class="section__skills__devdes">
                     <div class="section__skills__devdes__item">
-                      <h3 class="skill__title paragraph__inner">Design</h3>
+                      <h3 class="skill__title paragraph__inner">Design & Front-end</h3>
                       <div class="skill__items">
-                        <div class="skill__item paragraph__inner">Figma</div>
-                        <div class="skill__item paragraph__inner">Adobe XD</div>
-                        <div class="skill__item paragraph__inner">Sketch</div>
-                        <div class="skill__item paragraph__inner">Principle</div>
-                        <div class="skill__item paragraph__inner">Framer</div>
+                        <div class="skill__item paragraph__inner">HTML5</div>
+                        <div class="skill__item paragraph__inner">CSS3</div>
+                        <div class="skill__item paragraph__inner">JavaScript</div>
+                        <div class="skill__item paragraph__inner">React</div>
+                        <div class="skill__item paragraph__inner">Next.js</div>
+                        <div class="skill__item paragraph__inner">Tailwind CSS</div>
+                        <div class="skill__item paragraph__inner">GSAP</div>
                       </div>
                     </div>
                     <div class="section__skills__devdes__item">
-                      <h3 class="skill__title paragraph__inner">Research</h3>
+                      <h3 class="skill__title paragraph__inner">Back-end & Database
+</h3>
                       <div class="skill__items">
-                        <div class="skill__item paragraph__inner">User Testing</div>
-                        <div class="skill__item paragraph__inner">Maze</div>
-                        <div class="skill__item paragraph__inner">Hotjar</div>
-                        <div class="skill__item paragraph__inner">Lookback</div>
-                        <div class="skill__item paragraph__inner">Miro</div>
+                        <div class="skill__item paragraph__inner">Node.js</div>
+                        <div class="skill__item paragraph__inner"> Express.js</div>
+                        <div class="skill__item paragraph__inner">Mongoose</div>
+                        <div class="skill__item paragraph__inner">MongoDB</div>
+                      </div>
+                    </div>
+                     <div class="section__skills__devdes__item">
+                      <h3 class="skill__title paragraph__inner">Marketing & SEO
+
+</h3>
+                      <div class="skill__items">
+                        <div class="skill__item paragraph__inner">Facebook Ads</div>
+                        <div class="skill__item paragraph__inner">Google Ads</div>
+                        <div class="skill__item paragraph__inner">Google Analytics</div>
+                        <div class="skill__item paragraph__inner">SEO Strategy</div>
                       </div>
                     </div>
                   </div>
                   <p class="section__skill__description opacity__inner">
                     <span>
-                      I'm a calm person 😎, passionate about design thinking 🎨 and addicted to learning. My motivation is to grow as a UX designer and brighten users' days with thoughtful digital experiences.
-                    </span>
+I’m a fast learner 🚀, adaptive, and passionate about tech innovation 💡. My goal is to craft digital experiences that delight users and drive business growth.
+
+                </span>
                     <span class="section__skill__description__git">
-                      If you want to see how this portfolio was designed, check out my <a class="word__link" href="https://www.figma.com/community/@mustafa-ux" target="_blank">Figma community profile</a>.
+                      If you want to see how this GitHub profile , check out my <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub profile</a>.
                     </span>
                   </p>
                 </div>
@@ -101,7 +117,7 @@ export default class AboutView {
             ProficientNow
           </h4>
           <div class="company__positions paragraph__inner">
-            Senior UI/UX Designer / Design Systems
+          Full-Stack Developer
           </div>
         </div>
         <div class="company__duration">
@@ -113,11 +129,10 @@ export default class AboutView {
       <div class="experience__company">
         <div class="company__info">
           <h4 class="company__name paragraph__inner">
-            Websleak
+Amvotech Solution Inc
           </h4>
           <div class="company__positions paragraph__inner">
-            UI/UX Designer / Product Design
-          </div>
+Digital Marketing & Web Developer           </div>
         </div>
         <div class="company__duration">
           <div class="duration__number title__inner">01</div>
@@ -173,7 +188,7 @@ export default class AboutView {
                 <figure class="footer__contact__logo__media">
                   <img
                     class="footer__contact__logo__image object__rotate"
-                    alt="Mustafa Design Studio"
+                    alt="Ayman Design Studio"
                     src="${abstractImg}"
                   />
                 </figure>
@@ -188,7 +203,7 @@ export default class AboutView {
                 </h2>
                 <a
                   class="footer__contact__label word__link title__inner"
-                  href="mailto:mustafa.designer@gmail.com"
+                  href="mailto:khanayman080@gmail.com"
                   >Contact_me</a
                 >
               </div>
@@ -196,11 +211,13 @@ export default class AboutView {
             <div class="footer__about__contact__networks">
               <ul class="footer__contact__items">
                 <li class="footer__network">
-                  <a class="word__link" href="https://www.linkedin.com/in/syed-mustafa-ali-b96a46269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
+                  <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub</a>
                 </li>
-                
+                 <li class="footer__network">
+                  <a class="word__link" href="https://www.linkedin.com/in/mohammed-ayman-khan-370319263/" target="_blank">LinkedIn</a>
+                </li>
                 <li class="footer__network">
-                  <a class="word__link" href="mailto:alisyed17012@gmail.com">Email</a>
+                  <a class="word__link" href="mailto:khanayman080@gmail.com">Email</a>
                 </li>
               </ul>
               <div class="footer__copy">©2025</div>
@@ -209,6 +226,6 @@ export default class AboutView {
         </footer>
       </div>
     </div>
-    `
+    `;
   }
 }

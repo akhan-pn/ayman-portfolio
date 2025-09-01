@@ -1,22 +1,22 @@
-import abstractImg from '../../assets/images/home/abstract-figure.svg'
+import abstractImg from "../../assets/images/home/abstract-figure.svg";
 // import portraitImg from '../../assets/images/home/mustafa.jpg'
-import aymanImg from '../../assets/images/home/mustafa.jpg' // Keep same image, just renamed variable
+import aymanImg from "../../assets/images/home/mustafa.jpg"; // Keep same image, just renamed variable
 
-import starImg from '../../assets/images/home/star-figure.svg'
-import project1Img from '../../assets/images/home/project1.png'
-import project2Img from '../../assets/images/home/project2.png'
-import project3Img from '../../assets/images/home/project3.png'
+import starImg from "../../assets/images/home/star-figure.svg";
+import project1Img from "../../assets/images/home/project1.png";
+import project2Img from "../../assets/images/home/project2.png";
+import project3Img from "../../assets/images/home/project3.png";
 // import project4Img from '../../assets/images/home/project4.png'
 
 export default class HomeView {
   constructor() {
-    this.html = ''
+    this.html = "";
   }
 
   getData() {
-    this.createContent()
+    this.createContent();
   }
-  
+
   createContent() {
     this.html = `
     <div class="home">
@@ -25,7 +25,7 @@ export default class HomeView {
           <div class="home__header__wrapper">
             <div class="header__title">
               <h1 class="header__title__wrapper">
-                <div class="header__title__dev title">Frontend</div>
+                <div class="header__title__dev title">Full-Stack</div>
                 <div class="header__title__mix">
                   <div class="header__title__web title">Developer</div>
                   <div class="header__title__eye paragraph">passionate about</div>
@@ -41,12 +41,13 @@ export default class HomeView {
             <div class="header__contact">
               <div class="header__contact__wrapper">
                 <ul class="header__networks">
-                  <li class="header__network">
-                    <a class="word__link" href="https://www.linkedin.com/in/ayman-khan" target="_blank">LinkedIn</a>
-                  </li>
+                 <li class="footer__network">
+                  <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub</a>
+                </li>
+                 
                 </ul>
                 <div class="header__mail">
-                  <a class="word__link" href="mailto:ayman.khan.dev@gmail.com">Email</a>
+                  <a class="word__link" href="mailto:khanayman080@gmail.com">Email</a>
                 </div>
               </div>
             </div>
@@ -59,7 +60,7 @@ export default class HomeView {
                 <div class="section__bio__description">
                   <div class="section__bio__description__wrapper">
                     <p class="section__bio__text paragraph__inner">
-                      My name is Ayman, I'm a Frontend developer with over 3 years of experience building modern web applications.
+                      My name is Ayman, I'm a Full-Stack developer with over 3 years of experience building modern web applications.
                     </p>
                     <div class="section__bio__logo">
                       <figure class="section__bio__logo__media">
@@ -88,7 +89,7 @@ export default class HomeView {
               <div class="section__description__wrapper">
                 <div class="section__description__principal">
                   <p class="section__principal paragraph__inner">
-                    A Frontend developer who writes clean, efficient code creates digital experiences that perform flawlessly across all devices.
+                    A Full-Stack developer who writes clean, efficient code creates digital experiences that perform flawlessly across all devices.
                   </p>
                   <p class="section__principal paragraph__inner">
                     Pixel-perfect implementations, smooth animations, and optimized performance bring designs to life.
@@ -100,7 +101,7 @@ export default class HomeView {
                 <div class="section__description__highlights">
                   <h2 class="section__highlight">
                     <div class="section__highlight__line paragraph__inner">
-                      Frontend developer
+                      Full-Stack developer
                     </div>
                     <div class="section__highlight__line paragraph__inner">
                       for web applications.
@@ -211,10 +212,11 @@ export default class HomeView {
               <div class="footer__contact__advice">
                 <h2 class="footer__contact__text">
                   <div class="footer__advice__line title__inner">
-                    Need_a
+                                        Have_a
+
                   </div>
-                  <div class="footer__advice__line title__inner">website</div>
-                  <div class="footer__advice__line title__inner">built?</div>
+                  <div class="footer__advice__line title__inner">project</div>
+                  <div class="footer__advice__line title__inner">in_mind?</div>
                 </h2>
                 <a
                   class="footer__contact__label word__link title__inner"
@@ -226,10 +228,13 @@ export default class HomeView {
             <div class="footer__contact__networks">
               <ul class="footer__contact__items">
                 <li class="footer__network">
-                  <a class="word__link" href="https://www.linkedin.com/in/ayman-khan" target="_blank">LinkedIn</a>
+                  <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub</a>
+                </li>
+                 <li class="footer__network">
+                  <a class="word__link" href="https://www.linkedin.com/in/mohammed-ayman-khan-370319263/" target="_blank">LinkedIn</a>
                 </li>
                 <li class="footer__network">
-                  <a class="word__link" href="mailto:ayman.khan.dev@gmail.com">Email</a>
+                  <a class="word__link" href="mailto:khanayman080@gmail.com">Email</a>
                 </li>
               </ul>
               <div class="footer__copy">©2025</div>
@@ -238,6 +243,6 @@ export default class HomeView {
         </footer>
       </div>
     </div>
-    `
+    `;
   }
 }
