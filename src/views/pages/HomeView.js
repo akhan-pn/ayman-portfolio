@@ -27,7 +27,7 @@ export default class HomeView {
               <h1 class="header__title__wrapper">
                 <div class="header__title__dev title">Full-Stack</div>
                 <div class="header__title__mix">
-                  <div class="header__title__web title">Developer</div>
+                  <div class="header__title__web title">Dev</div>
                   <div class="header__title__eye paragraph">passionate about</div>
                 </div>
                 <div class="header__title__des title">Code</div>

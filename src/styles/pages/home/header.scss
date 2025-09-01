@@ -1,121 +1,122 @@
-.home__header{
+.home__header {
   height: 95rem;
   margin: 0 8rem;
   position: relative;
 
-  @include media('<tablet'){
+  @include media("<tablet") {
     height: auto;
     margin: 0 5rem;
   }
 }
-.header__title__wrapper{
+.header__title__wrapper {
   position: absolute;
   top: 16rem;
 
-  @include media('<tablet'){
+  @include media("<tablet") {
     position: static;
     margin-top: 14rem;
   }
 
-  .header__title__dev{
+  .header__title__dev {
     font-size: 12rem;
     font-weight: 300;
     text-transform: uppercase;
 
-    @include media('<tablet'){
+    @include media("<tablet") {
       font-size: 7rem;
     }
   }
-  .header__title__mix{
+  .header__title__mix {
     margin-top: -4rem;
     display: flex;
     align-items: flex-end;
 
-    @include media('<tablet'){
+    @include media("<tablet") {
       margin-top: -2rem;
     }
 
-    .header__title__web{
+    .header__title__web {
       font-size: 16rem;
       font-weight: 300;
       text-transform: uppercase;
 
-      @include media('<tablet'){
-        font-size: 12rem;
+      @include media("<tablet") {
+        font-size: 10rem;
       }
     }
-    .header__title__eye{
+    .header__title__eye {
       font-family: $font-italiana;
       font-size: 10.2rem;
-      margin: 0  0 2.5rem 1rem;
+      margin: 0 0 2.5rem 1rem;
 
-      @include media('<tablet'){
+      @include media("<tablet") {
         font-size: 6rem;
       }
     }
   }
-  .header__title__des{
+  .header__title__des {
     font-family: $font-italiana;
     font-size: 27.2rem;
     text-transform: uppercase;
     margin-top: -3rem;
 
-    @include media('<tablet'){
+    @include media("<tablet") {
       font-size: 12rem;
       margin-top: -1.5rem;
     }
   }
 }
-.header__subtitle{
+.header__subtitle {
   color: $color-gray-medium;
   font-size: 2.5rem;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   position: absolute;
   right: 0;
   text-transform: uppercase;
   top: 14rem;
 
-  @include media('<tablet'){
+  @include media("<tablet") {
     position: static;
     margin-top: 5rem;
     font-size: 4rem;
   }
 
-  .header__subtitle__wrapper{
+  .header__subtitle__wrapper {
     width: 40rem;
   }
 }
-.header__contact{
+.header__contact {
   font-size: 2.5rem;
   text-transform: uppercase;
   color: $color-blue;
-  
+
   .header__contact__wrapper {
-    @include media('<tablet'){
+    @include media("<tablet") {
       display: flex;
+      justify-content: space-between;
       margin-top: 8rem;
     }
 
-    .header__networks{
+    .header__networks {
       bottom: 8rem;
       display: flex;
       position: absolute;
       left: 0;
 
-      @include media('<tablet'){
+      @include media("<tablet") {
         position: static;
       }
 
-      .header__network{
+      .header__network {
         margin-right: 3rem;
       }
     }
-    .header__mail{
+    .header__mail {
       bottom: 8rem;
       position: absolute;
       right: 0;
 
-      @include media('<tablet'){
+      @include media("<tablet") {
         position: static;
       }
     }
