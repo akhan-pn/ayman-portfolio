@@ -89,7 +89,7 @@ I’m a fast learner 🚀, adaptive, and passionate about tech innovation 💡. 
 
                 </span>
                     <span class="section__skill__description__git">
-                      If you want to see how this GitHub profile , check out my <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub profile</a>.
+                      If you want to see how this GitHub profile , check out my <a class="word__link" href="https://github.com/akhan-pn" target="_blank">GitHub profile</a>.
                     </span>
                   </p>
                 </div>
@@ -211,7 +211,7 @@ Digital Marketing & Web Developer           </div>
             <div class="footer__about__contact__networks">
               <ul class="footer__contact__items">
                 <li class="footer__network">
-                  <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub</a>
+                  <a class="word__link" href="https://github.com/akhan-pn" target="_blank">GitHub</a>
                 </li>
                  <li class="footer__network">
                   <a class="word__link" href="https://www.linkedin.com/in/mohammed-ayman-khan-370319263/" target="_blank">LinkedIn</a>

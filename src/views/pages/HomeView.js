@@ -42,7 +42,7 @@ export default class HomeView {
               <div class="header__contact__wrapper">
                 <ul class="header__networks">
                  <li class="footer__network">
-                  <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub</a>
+                  <a class="word__link" href="https://github.com/akhan-pn" target="_blank">GitHub</a>
                 </li>
                  
                 </ul>
@@ -228,7 +228,7 @@ export default class HomeView {
             <div class="footer__contact__networks">
               <ul class="footer__contact__items">
                 <li class="footer__network">
-                  <a class="word__link" href="https://github.com/aymankhan89" target="_blank">GitHub</a>
+                  <a class="word__link" href="https://github.com/akhan-pn" target="_blank">GitHub</a>
                 </li>
                  <li class="footer__network">
                   <a class="word__link" href="https://www.linkedin.com/in/mohammed-ayman-khan-370319263/" target="_blank">LinkedIn</a>
